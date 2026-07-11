@@ -61,6 +61,24 @@ export const siteConfig = {
       description:
         "Powered by Astro and Cloudflare for maximum speed and reliability.",
       icon: "☁️",
-    },
-  ],
+     },
+    ],
+    cta: {
+  badge: "🚀 Ready to Build?",
+
+  heading: "Start Building Smarter with AI",
+
+  description:
+    "Explore AI, automation, and modern publishing strategies to build scalable online businesses.",
+
+  primaryButton: {
+    text: "Start Learning",
+    href: "#",
+  },
+
+  secondaryButton: {
+    text: "Explore Projects",
+    href: "#",
+  },
+ },
 };
