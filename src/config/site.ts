@@ -112,5 +112,34 @@ export const siteConfig = {
         description: "Scale with SEO, affiliate marketing, and automation.",
       },
     ],
-  },
+  }, 
+  projects: {
+  badge: "💼 Featured Projects",
+
+  heading: "Explore Our Latest Projects",
+
+  description:
+    "Discover AI-powered websites, automation systems, and affiliate marketing solutions built with modern technologies.",
+
+  items: [
+    {
+      title: "MindBites Labs",
+      category: "AI Publishing",
+      description:
+        "An AI-powered publishing platform built with Astro, Cloudflare, and n8n.",
+    },
+    {
+      title: "Affiliate Engine",
+      category: "Affiliate Marketing",
+      description:
+        "Scalable Amazon and Digistore24 affiliate website architecture.",
+    },
+    {
+      title: "Automation Hub",
+      category: "Workflow Automation",
+      description:
+        "Business automation using n8n, AI, and cloud infrastructure.",
+    },
+  ],
+ },
 };
