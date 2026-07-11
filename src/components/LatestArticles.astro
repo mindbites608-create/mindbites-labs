@@ -1,0 +1,47 @@
+---
+import { siteConfig } from "../config/site";
+
+const { articles } = siteConfig;
+---
+
+<section class="articles">
+  <div class="container">
+
+    <span class="badge">
+      {articles.badge}
+    </span>
+
+    <h2>
+      {articles.heading}
+    </h2>
+
+    <p>
+      {articles.description}
+    </p>
+
+    <div class="articles-grid">
+
+      {articles.items.map((article) => (
+
+        <article class="article-card">
+
+          <span class="article-category">
+            {article.category}
+          </span>
+
+          <h3>
+            {article.title}
+          </h3>
+
+          <p>
+            {article.description}
+          </p>
+
+        </article>
+
+      ))}
+
+    </div>
+
+  </div>
+</section>

@@ -61,9 +61,10 @@ export const siteConfig = {
       description:
         "Powered by Astro and Cloudflare for maximum speed and reliability.",
       icon: "☁️",
-     },
-    ],
-      cta: {
+    },
+  ],
+
+  cta: {
     badge: "🚀 Ready to Build?",
 
     heading: "Start Building Smarter with AI",
@@ -96,50 +97,100 @@ export const siteConfig = {
         title: "Create",
         description: "Write content, ideas, or products.",
       },
+
       {
         number: "02",
         title: "Optimize",
         description: "Use AI to improve quality and SEO.",
       },
+
       {
         number: "03",
         title: "Automate",
         description: "Publish automatically using n8n workflows.",
       },
+
       {
         number: "04",
         title: "Grow",
         description: "Scale with SEO, affiliate marketing, and automation.",
       },
     ],
-  }, 
-  projects: {
-  badge: "💼 Featured Projects",
+  },
 
-  heading: "Explore Our Latest Projects",
+  projects: {
+    badge: "💼 Featured Projects",
+
+    heading: "Explore Our Latest Projects",
+
+    description:
+      "Discover AI-powered websites, automation systems, and affiliate marketing solutions built with modern technologies.",
+
+    items: [
+      {
+        title: "MindBites Labs",
+        category: "AI Publishing",
+        description:
+          "An AI-powered publishing platform built with Astro, Cloudflare, and n8n.",
+      },
+
+      {
+        title: "Affiliate Engine",
+        category: "Affiliate Marketing",
+        description:
+          "Scalable Amazon and Digistore24 affiliate website architecture.",
+      },
+
+      {
+        title: "Automation Hub",
+        category: "Workflow Automation",
+        description:
+          "Business automation using n8n, AI, and cloud infrastructure.",
+      },
+    ],
+  },
+
+  newsletter: {
+    badge: "Stay Updated",
+
+    title: "Join the Newsletter",
+
+    description:
+      "Get the latest AI, automation, and affiliate marketing insights delivered to your inbox.",
+
+    placeholder: "Enter your email",
+
+    buttonText: "Subscribe",
+  },
+articles: {
+  badge: "📰 Latest Articles",
+
+  heading: "Learn AI, Automation & Growth",
 
   description:
-    "Discover AI-powered websites, automation systems, and affiliate marketing solutions built with modern technologies.",
+    "Read practical guides, tutorials, and insights on AI publishing, automation, SEO, and affiliate marketing.",
 
   items: [
     {
-      title: "MindBites Labs",
-      category: "AI Publishing",
+      title: "Getting Started with Astro",
+      category: "Astro",
       description:
-        "An AI-powered publishing platform built with Astro, Cloudflare, and n8n.",
+        "Learn how to build lightning-fast websites using Astro.",
     },
+
     {
-      title: "Affiliate Engine",
-      category: "Affiliate Marketing",
+      title: "Automate Your Workflow with n8n",
+      category: "Automation",
       description:
-        "Scalable Amazon and Digistore24 affiliate website architecture.",
+        "Save time by connecting apps and automating repetitive tasks.",
     },
+
     {
-      title: "Automation Hub",
-      category: "Workflow Automation",
+      title: "Affiliate Marketing for Beginners",
+      category: "Affiliate",
       description:
-        "Business automation using n8n, AI, and cloud infrastructure.",
+        "Build scalable online income with modern affiliate strategies.",
     },
   ],
- },
+},
 };

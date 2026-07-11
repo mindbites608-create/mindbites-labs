@@ -1,1 +1,132 @@
 @import "tailwindcss";
+/* ===========================
+   Newsletter
+=========================== */
+
+.newsletter {
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.newsletter .container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.newsletter .badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  flex: 1;
+  min-width: 260px;
+  padding: 0.9rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+  background: #1d4ed8;
+}
+/* ===========================
+   Latest Articles
+=========================== */
+
+.articles {
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.articles .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.articles .badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.articles h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.articles > .container > p {
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  line-height: 1.7;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.article-card {
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-category {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.article-card h3 {
+  margin-bottom: 1rem;
+}
+
+.article-card p {
+  color: #666;
+  line-height: 1.7;
+}

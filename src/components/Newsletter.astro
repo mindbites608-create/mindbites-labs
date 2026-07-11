@@ -1,0 +1,27 @@
+---
+import { siteConfig } from "../config/site";
+
+const { newsletter } = siteConfig;
+---
+
+<section class="newsletter">
+  <div class="container">
+    <span class="badge">{newsletter.badge}</span>
+
+    <h2>{newsletter.title}</h2>
+
+    <p>{newsletter.description}</p>
+
+    <form class="newsletter-form">
+      <input
+        type="email"
+        placeholder={newsletter.placeholder}
+        aria-label="Email Address"
+      />
+
+      <button type="submit">
+        {newsletter.buttonText}
+      </button>
+    </form>
+  </div>
+</section>
