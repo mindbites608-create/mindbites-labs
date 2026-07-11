@@ -63,22 +63,54 @@ export const siteConfig = {
       icon: "☁️",
      },
     ],
-    cta: {
-  badge: "🚀 Ready to Build?",
+      cta: {
+    badge: "🚀 Ready to Build?",
 
-  heading: "Start Building Smarter with AI",
+    heading: "Start Building Smarter with AI",
 
-  description:
-    "Explore AI, automation, and modern publishing strategies to build scalable online businesses.",
+    description:
+      "Explore AI, automation, and modern publishing strategies to build scalable online businesses.",
 
-  primaryButton: {
-    text: "Start Learning",
-    href: "#",
+    primaryButton: {
+      text: "Start Learning",
+      href: "#",
+    },
+
+    secondaryButton: {
+      text: "Explore Projects",
+      href: "#",
+    },
   },
 
-  secondaryButton: {
-    text: "Explore Projects",
-    href: "#",
+  howItWorks: {
+    badge: "⚡ Simple Process",
+
+    heading: "How MindBites Labs Works",
+
+    description:
+      "Build once, automate publishing, and grow your digital business with a scalable workflow.",
+
+    steps: [
+      {
+        number: "01",
+        title: "Create",
+        description: "Write content, ideas, or products.",
+      },
+      {
+        number: "02",
+        title: "Optimize",
+        description: "Use AI to improve quality and SEO.",
+      },
+      {
+        number: "03",
+        title: "Automate",
+        description: "Publish automatically using n8n workflows.",
+      },
+      {
+        number: "04",
+        title: "Grow",
+        description: "Scale with SEO, affiliate marketing, and automation.",
+      },
+    ],
   },
- },
 };
