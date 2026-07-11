@@ -1,0 +1,39 @@
+---
+import { siteConfig } from "../config/site";
+
+const { hero } = siteConfig;
+---
+
+<section class="bg-white">
+  <div class="mx-auto flex max-w-5xl flex-col items-center px-6 py-24 text-center">
+
+    <span class="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
+      {hero.badge}
+    </span>
+
+    <h1 class="mt-8 text-5xl font-extrabold tracking-tight text-gray-900 md:text-6xl">
+      {hero.heading}
+    </h1>
+
+    <p class="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
+      {hero.description}
+    </p>
+
+    <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+      <a
+        href={hero.primaryButton.href}
+        class="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
+      >
+        {hero.primaryButton.text}
+      </a>
+
+      <a
+        href={hero.secondaryButton.href}
+        class="rounded-xl border border-gray-300 px-8 py-4 font-semibold text-gray-700 transition hover:bg-gray-100"
+      >
+        {hero.secondaryButton.text}
+      </a>
+    </div>
+
+  </div>
+</section>
