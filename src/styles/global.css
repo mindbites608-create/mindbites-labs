@@ -130,3 +130,108 @@
   color: #666;
   line-height: 1.7;
 }
+/* ==========================
+   Blog Layout
+========================== */
+
+.article-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.article-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.article-content h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.article-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.article-content p {
+  margin: 1.25rem 0;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+.article-content ul {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  margin: 0.75rem 0;
+  line-height: 1.7;
+}
+
+.article-content strong {
+  color: #111827;
+}
+
+.article-content a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.article-content a:hover {
+  text-decoration: underline;
+}
+/* ==========================
+   Article Header
+========================== */
+
+.article-header {
+  margin-bottom: 3rem;
+}
+
+.article-category {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.article-description {
+  font-size: 1.15rem;
+  color: #6b7280;
+  margin: 1rem 0 2rem;
+}
+
+.article-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+/* ==========================
+   Article Tags
+========================== */
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 3rem;
+}
+
+.tag {
+  padding: 0.45rem 0.9rem;
+  background: #f3f4f6;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: #374151;
+}
